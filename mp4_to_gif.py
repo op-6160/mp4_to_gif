@@ -1,4 +1,3 @@
-#아카콘 변환
 import os
 import imageio
 
@@ -14,9 +13,10 @@ def convert_to_gif(input_folder, output_folder):
             print("Converted " + mp4_file + " to " + gif_file)
         else:
             print(filename + " is not a .mp4 file.")
+    print("done")
 
 #input_folder = input("Enter the path of the input folder: ")
 input_folder = "D:/Users/sagvd17/mp4_to_gif/input_mp4"
-output_folder = "D:/Users/sagvd17/mp4_to_gif/input_mp4"
+output_folder = "D:/Users/sagvd17/mp4_to_gif/output_gif"
 #output_folder = input("Enter the path of the output folder: ")
 convert_to_gif(input_folder, output_folder)
